@@ -1,5 +1,10 @@
 import axios from "axios"
 import { NEW_PLUGIN_9_TOKEN } from "react-native-dotenv"
+const plugin11 = axios.create({
+  baseURL:
+    "https://crowdbotics-slack-dev.herokuapp.com/dashboard/app/7307/storyboard/8491/",
+  headers: { Accept: "application/json", "Content-Type": "application/json" }
+})
 const newPlugin9 = axios.create({
   baseURL:
     "https://crowdbotics-slack-dev.herokuapp.com/dashboard/app/7234/storyboard/8337/",
